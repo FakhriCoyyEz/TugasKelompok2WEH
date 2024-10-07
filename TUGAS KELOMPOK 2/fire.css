@@ -1,0 +1,12 @@
+.firework {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  opacity: 1;
+  animation: launchFirework 508ms linear forwards, launchFirework1 833ms linear forwards;
+}
+
+.firework.animated {
+  opacity: 0;
+  display: none;
+}
